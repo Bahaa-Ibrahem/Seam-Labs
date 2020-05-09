@@ -1,0 +1,95 @@
+
+.first-section {
+    margin-top: 10%;
+    h1 {
+        font-weight: 700;
+        font-size: 3.5rem;
+    }
+    p {
+        color: #A3A3A3;
+    }
+    .text {
+            margin: auto;
+            padding-bottom: 10%;
+            button {
+                border-radius: 25px;
+                padding: 10px 35px;
+                color: white;
+                background: rgb(2,0,36);
+                background: rgb(14,64,199);
+                background: -moz-linear-gradient(90deg, rgba(26,18,159,1) 18%, rgba(14,64,199,1) 159%);
+                background: -webkit-linear-gradient(90deg, rgba(26,18,159,1) 18%, rgba(14,64,199,1) 159%);
+                background: linear-gradient(90deg, rgba(26,18,159,1) 18%, rgba(14,64,199,1) 159%);
+                filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0e40c7",endColorstr="#1a129f",GradientType=1);
+            }
+        }
+}
+
+.second-section {
+    .img {
+        margin: auto;
+    }
+    margin-top: 50px;
+    img {
+        width: 95%;
+    }
+    .text-center {
+        margin: auto;
+    }
+    .text {
+        padding-top: 8%!important;
+        background-image: url('src/assets/Images/Group 182.svg');
+        background-repeat: no-repeat;
+        background-size :100% auto;
+        width : 100% ;
+        margin: 0 -15px;
+        padding: 0 15px;
+        button {
+            font-size: 12px;
+            border-radius: 25px;
+            padding: 10px 35px;
+            color: white;
+            background: rgb(2,0,36);
+            background: rgb(14,64,199);
+            background: -moz-linear-gradient(90deg, rgba(26,18,159,1) 18%, rgba(14,64,199,1) 159%);
+            background: -webkit-linear-gradient(90deg, rgba(26,18,159,1) 18%, rgba(14,64,199,1) 159%);
+            background: linear-gradient(90deg, rgba(26,18,159,1) 18%, rgba(14,64,199,1) 159%);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0e40c7",endColorstr="#1a129f",GradientType=1);
+        }
+    }
+}
+@media only screen and (min-width: 767px) and (max-width: 1199px) {
+    .first-section {
+        .text-left {
+            img {
+                width: 95%;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 767px) {
+    .first-section {
+        .text-center {
+            margin-top: 20%;
+        }
+        .text-left {
+            margin-top: 15%;
+            img {
+                width: 95%;
+                float: right;
+            }
+        }
+        .bigScr {
+            display: none;
+        }
+        .SmScr {
+            display: block!important;
+        }
+    }
+    .second-section {
+        .text {
+            margin-top: 10%;
+            margin: 0;
+        }
+    }
+}

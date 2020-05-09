@@ -1,0 +1,18 @@
+<div class="row text text-center">
+    <div class="col col-sm-12">
+        <p>Do you want to get <span style="font-weight: bold;">Special News</span></p>
+    </div>
+</div>
+<div class="row form">
+    <form [formGroup]='Form' (ngSubmit)='onSubmit()'>
+        <div class="form-group row">
+            <div class="col col-sm-12">
+            <input id="email" class="form-control" type="email" formControlName='email' placeholder="Drop Your Email">
+            <span *ngIf="!Form.get('email').valid && Form.get('email').touched" class="help-block">
+                Please enter a valid emial!
+            </span>
+            </div>
+        </div>
+        <button class="btn btn" type="submit">Subscribe</button>
+    </form>
+</div>

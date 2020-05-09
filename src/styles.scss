@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~font-awesome/css/font-awesome.css";
+
+
+body {
+    background-image: url('assets/Images/Bg Shape.svg'), url('assets/Images/Mask Group 1.svg');;
+    background-repeat: no-repeat, no-repeat;
+    background-position: right top, bottom;
+}

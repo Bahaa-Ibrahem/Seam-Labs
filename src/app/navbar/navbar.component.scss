@@ -1,0 +1,34 @@
+.navbar-collapse {
+    ul {
+        padding-left: 15%;
+        li {
+            a {
+                color: white;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .container {
+        button {
+            span {
+                display: none;
+            }
+            div {
+                display: block!important;
+            }
+        }
+        .navbar-toggler {
+            span {
+                display: none;
+            }
+        }
+        a {
+        
+            .smScr {
+                display: block!important;
+            }
+        }
+    }
+}

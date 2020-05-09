@@ -1,0 +1,41 @@
+.text {
+    margin-top: 10%;
+    p {
+        font-size: 20px;
+    }
+}
+.form {
+    justify-content: center;
+    margin-top: 25px;
+    padding-bottom: 5%;
+    .form-group {
+        display: inline-flex;
+        .form-control {
+            width: 300px;
+            background-color: #F1F1F1;
+        }
+    }
+    button {
+        margin-left: 15px;
+        border-radius: 25px;
+        padding: 10px 35px;
+        color: white;
+        background: rgb(2,0,36);
+        background: rgb(14,64,199);
+        background: -moz-linear-gradient(90deg, rgba(26,18,159,1) 18%, rgba(14,64,199,1) 159%);
+        background: -webkit-linear-gradient(90deg, rgba(26,18,159,1) 18%, rgba(14,64,199,1) 159%);
+        background: linear-gradient(90deg, rgba(26,18,159,1) 18%, rgba(14,64,199,1) 159%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0e40c7",endColorstr="#1a129f",GradientType=1);
+    }
+}
+@media only screen and (max-width: 767px) {
+    form {
+        button {
+            display: block;
+            float: right;
+        }
+        .form-group {
+            display: block!important;
+        }
+    }
+}

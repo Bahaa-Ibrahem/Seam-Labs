@@ -1,0 +1,109 @@
+.title {
+    margin-top: 10%;
+    padding: 15px;
+    h1 {
+        margin-bottom: 10%;
+    }
+}
+.cards {
+    margin-bottom: 10%;
+    background-image: url('src/assets/Images/Group 1238.svg');
+    background-repeat: no-repeat;
+    background-size :100% auto;
+    width : 100% ;
+    margin: 0 -15px;
+    padding: 0 15px;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    h5 {
+        font-size: 18px;
+    }
+    .first {
+        margin-bottom: 10%;
+        p {
+            font-size: 14px;
+            min-height: 105px;
+        }
+    }
+    .second {
+        p {
+            font-size: 14px;
+            min-height: 126px;
+        }
+    }
+    .card {
+        margin: auto;
+        border-radius: 25px;
+        border: none;
+        img {
+            width: 83.5px;
+            height: 83.5px;
+            margin: auto;
+            margin-top: 20px;
+        }
+        .card-body {
+            a {
+                font-size: 12px;
+                float: right;
+                border-radius: 25px;
+                padding: 5px 20px;
+                color: white;
+                background: rgb(2,0,36);
+                background: rgb(14,64,199);
+                background: -moz-linear-gradient(90deg, rgba(26,18,159,1) 18%, rgba(14,64,199,1) 159%);
+                background: -webkit-linear-gradient(90deg, rgba(26,18,159,1) 18%, rgba(14,64,199,1) 159%);
+                background: linear-gradient(90deg, rgba(26,18,159,1) 18%, rgba(14,64,199,1) 159%);
+                filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0e40c7",endColorstr="#1a129f",GradientType=1);
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .cards {
+        .card {
+            margin-bottom: 5%;
+        }
+        .cards {
+            .first {
+                margin-bottom: -10%!important;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width: 1199px) {
+    .cards {
+        .card {
+            width: 18rem!important;
+            height: 100%;
+            p {
+                margin-bottom: 35px;
+            }
+            a {
+                position: absolute;
+                bottom: 15px;
+                right: 20px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width: 991px) {
+    .cards {
+        .card {
+            width: 14rem!important;
+            height: 100%;
+            p {
+                margin-bottom: 35px;
+            }
+            a {
+                position: absolute;
+                bottom: 15px;
+                right: 20px;
+            }
+        }
+      
+    }
+}

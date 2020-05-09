@@ -1,0 +1,60 @@
+footer {
+    color: white;
+    .logo {
+        margin: auto;
+        margin-bottom: 9%;
+        margin-top: 28%;
+        .left {
+            padding-right: 9%;
+            ul {
+            list-style: none;
+            padding-left: initial;
+            display: flex;
+            justify-content: center;
+            li {
+                margin-right: 25px;
+            }
+            li:last-child {
+                margin-right: initial;
+            }
+        }
+        }
+        .right {
+            text-align: left;
+            ul {
+                list-style: none;
+                padding-left: initial;
+                display: inline-block;
+                margin-right: 10px;
+                li {
+                    a {
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 767px) {
+    footer {
+        .logo {
+            .left {
+                text-align: left;
+                ul {
+                    float: left;
+                }
+            }
+            .right {
+                .links {
+                    width: 50%;
+                }
+                .contact {
+                    width: 50%;
+                }
+                .hours {
+                    display: none;
+                }
+            }
+        }
+    }
+}
